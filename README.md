@@ -1,12 +1,12 @@
 # DeepGaze2 Saliency Model
 This repository contains the implementation of DeepGaze2 saliency network in Tensorflow 1.
 
-Two notebooks are included in the repo.
+Two notebooks are included in the repository.
 
-##DisplayDatasets_checkpoints.ipynb
+## DisplayDatasets_checkpoints.ipynb
 *************************************************************************
 
-###iscription: 
+### Discription: 
 
 This notebook 
 - Loads two datasets SALICON and MIT1003.
@@ -15,7 +15,7 @@ This notebook
 - Compute gold standard kernel density estimate for two stimuli + plot them.
 - load original checkpointed Deep gaze 2 and ICF models by authors, output their predicted densities for two arbitrary images that are not part of any of the datasets. 
 
-###Procedure:
+### Procedure:
  
 - Loads pysaliency library
 - Its not possible to use pysaliency like other off the shelf libraries in google colab. I clone the github reporitory of the library and modify some of its original scripts to make it compatible with google colab environment. 
@@ -37,9 +37,9 @@ You need to close the octave prompt manually by stopping the cell execution. Pre
 - Now to generate the predictions of the authors checkpointed models. first download the content of this [folder](https://drive.google.com/drive/folders/1p3z_0i8lx9whiW4elU2xePb-hvibrHYf?usp=sharing_) then upload the content of the folder in the project zip file, into the colab environment. To upload files in colab, click on the folder logo at the top left part of colab. Then click on upload sign to upload files.
 
 
-##deepgaze2_Final.ipynb
+## deepgaze2_Final.ipynb
 *************************************************************************
-###Discription: 
+### Discription: 
 
 - Make sure to run this notebook with google colab 'gpu', otherwise the code will produce error.
 
@@ -54,7 +54,7 @@ You need to close the octave prompt manually by stopping the cell execution. Pre
 - Then the code for data preprocessing, building deep gaze 2 architecture, and training and testing configurations are built.
 
 
-###Procedure:
+### Procedure:
 
 - To load dataset follow the steps defined for the previous notebook.
 
