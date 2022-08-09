@@ -4,7 +4,6 @@ This repository contains the implementation of DeepGaze2 saliency network in Ten
 Two notebooks are included in the repository.
 
 ## DisplayDatasets_checkpoints.ipynb
-*************************************************************************
 
 ### Discription: 
 
@@ -38,7 +37,7 @@ You need to close the octave prompt manually by stopping the cell execution. Pre
 
 
 ## deepgaze2_Final.ipynb
-*************************************************************************
+
 ### Discription: 
 
 - Make sure to run this notebook with google colab 'gpu', otherwise the code will produce error.
