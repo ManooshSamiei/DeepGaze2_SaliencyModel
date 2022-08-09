@@ -61,7 +61,7 @@ You need to close the octave prompt manually by stopping the cell execution. Pre
 
 **The main body structure of the code for training or testing the model, defining the arcitecture and preprocessing the data, are taken from the implementation of paper [Contextual encoder–decoder network for visual saliency prediction](https://github.com/alexanderkroner/saliency).
 
-Please do not forget to star the repository if it was useful to your research. Thanks alot in advance :wink:.
+Please do not forget to star the repository if it was useful to your research :wink:.
 
 I would be happy to answer any inquiries in reproducing my results.  
 
