@@ -15,7 +15,7 @@ Two notebooks are included in this repository.
 
 ### Procedure:
  
-- Loads pysaliency library
+- Load pysaliency library
 - Its not possible to use pysaliency like other off the shelf libraries in google colab. I clone the github reporitory of the library and modify some of its original scripts to make it compatible with google colab environment. 
 
 - run each cell one after the other, up to the octave prompt.
