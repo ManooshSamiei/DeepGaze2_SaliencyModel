@@ -59,8 +59,9 @@ You need to close the octave prompt manually by stopping the cell execution. Pre
 
 - Then you can run the testing phase on mit1003.
 
-**The main body structure of the code for training\testing the model, defining the arcitecture and preprocessing the data, are taken from the implementation of paper "Contextual encoder–decoder network for visual saliency prediction" available at [link](https://github.com/alexanderkroner/saliency) 
-*I made huge modifications to different part of this code, for example I changed the entire architecture of the model, added gaussian blurring + center bias prior. I changed many different training configurations to match deep gaze 2 paper. 
+**The main body structure of the code for training or testing the model, defining the arcitecture and preprocessing the data, are taken from the implementation of paper [Contextual encoder–decoder network for visual saliency prediction](https://github.com/alexanderkroner/saliency).
 
-I would be happy to answer any inquiries in reproducing my results. 
+Please do not forget to star the repository if it was useful to your research. Thanks alot in advance :wink:.
+
+I would be happy to answer any inquiries in reproducing my results.  
 
